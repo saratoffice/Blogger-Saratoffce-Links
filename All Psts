@@ -1,0 +1,78 @@
+<style>
+/* Updated CSS with unique class and id names */
+.unique-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.unique-table {
+    width: 400px;  /* Set the width to 400px */
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.unique-table th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    colspan: 3;  /* Merged header across all three columns */
+}
+
+.unique-table td {
+    text-align: center;
+    padding: 10px;
+}
+
+.unique-table a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: all 0.3s ease;
+}
+
+.unique-table a:hover {
+    color: red; /* Change text color to red */
+    font-weight: bold;  /* Make the text bold */
+    text-decoration: underline;
+    text-decoration-color: #8B0000; /* Blood-red underline color */
+}
+</style>
+
+<body class="unique-body">
+    <table class="unique-table">
+        <thead>
+            <tr>
+                <th colspan="3">All Page List</th>  <!-- Merged header across 3 columns -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://saratoffice.blogspot.com/2020/12/settings-for-google-drive-for-desktop.html">Google Drive</a></td>
+                <td><a href="https://saratoffice.blogspot.com/2025/02/income-tax-calculator-for-fy-2025-26.html">Income Tax Calculator</a></td>
+                <td><a href="https://saratoffice.blogspot.com/2025/02/the-odisha-public-demands-recovery-act.html">OPDR Act, 1962</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://saratoffice.blogspot.com/2019/01/sim-swap-sim-card-swap.html">Sim Swap Fraud</a></td>
+                <td><a href="https://saratoffice.blogspot.com/2025/02/advantages-and-disadvantagesof-smart.html">Smart Meter</a></td>
+                <td><a href="https://saratoffice.blogspot.com/2020/07/a-strong-password-to-safeguard-your.html">Strong Password</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://saratoffice.blogspot.com/2024/12/excel-wildcard-characters.html">Wild Cards in Excel</a></td>
+                <td><a href="https://saratoffice.blogspot.com/2025/01/in-excel-custom-number-formatting.html">Excel Number Formatting</a></td>
+                <td><a href="https://saratoffice.blogspot.com/2018/11/excel-study.html">Fix Abstracy Row</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://saratoffice.blogspot.com/2024/12/change-in-folder-path-error-in-sample.html">Folder Path Change</a></td>
+                <td></td> <!-- Empty cell -->
+                <td></td> <!-- Empty cell -->
+            </tr>
+        </tbody>
+    </table>
+</body>
