@@ -1,0 +1,82 @@
+<style>
+/* Updated CSS with unique class and id names */
+.unique-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.unique-table {
+    width: 400px;  /* Set the width to 400px */
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.unique-table th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    colspan: 3;  /* Merged header across all three columns */
+}
+
+.unique-table td {
+    text-align: center;
+    padding: 10px;
+}
+
+.unique-table a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: all 0.3s ease;
+}
+
+.unique-table a:hover {
+    color: red; /* Change text color to red */
+    font-weight: bold;  /* Make the text bold */
+    text-decoration: underline;
+    text-decoration-color: #8B0000; /* Blood-red underline color */
+}
+</style>
+
+
+    <table class="unique-table">
+        <thead>
+            <tr>
+                <th colspan="3">All Page List</th>  <!-- Merged header across 3 columns -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://saratoffice.blogspot.com/p/1955.html">EC Act, 1955</a></td>
+                <td><a href="https://saratoffice.blogspot.com/p/1934.html">Petrolum Act, 1934</a></td>
+                <td><a href="https://saratoffice.blogspot.com/p/2002.html">Petroleum Rules, 2002</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://saratoffice.blogspot.com/p/1979.html">HSD License 1979</a></td>
+                <td><a href="https://saratoffice.blogspot.com/p/bill.html">Electricity Bill</a></td>
+                <td><a href="https://saratoffice.blogspot.com/p/fuel-density.html">Fuel Density</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://saratoffice.blogspot.com/p/pass.html">Password Generator</a></td>
+                <td><a href="https://saratoffice.blogspot.com/p/currency.html">Currency Converter</a></td>
+                <td><a href="https://saratoffice.blogspot.com/p/age.html">Age Calculator</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://saratoffice.blogspot.com/p/bmr.html">BMR Calculator</a></td>
+                <td><a href="https://saratoffice.blogspot.com/p/download.html">Guidelines</a></td>
+                <td><a href="https://saratoffice.blogspot.com/p/links.html">Web Links</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://saratoffice.blogspot.com/p/ppt.html">Power Points</a></td>
+                <td><a href="https://saratoffice.blogspot.com/p/guard.html">Guard File</a></td>
+                <td><a herf="https://saratoffice.blogspot.com/p/urls.html">Other Pages</a></td>
+            </tr>
+        </tbody>
+    </table>
